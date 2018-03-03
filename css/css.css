@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+}
+html, body {
+    overflow-x: hidden; 
+}
+#sp{
+  max-width:100%;
+  max-height:100%;
+}
+
+.niswib .navbar {
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: -5px 8px 6px -6px #999;
+  background: rgba(237,237, 237, 0.7); 
+}
+
+.niswib a{
+  color: black;
+  font-weight: bold;
+}
+.niswib a.active {
+  border-bottom: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #c4216e;
+}
+
+#poz {
+  background-color: rgb(0,0,0,0.3);
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#wyw{
+  max-width:80%;
+  max-height:80%;
+  margin: 30px;
+}
+
+#poytext{
+  margin: 30px;
+  color: black;
+  font-size: 18px;
+}
+
+#myCarousel{
+  max-width:100%;
+  max-height:100%;
+  margin-bottom: 150px;
+  margin-top: 20px;
+}
+
+#vesti{
+  margin-top: 30px;
+  background-color: rgb(0,0,0,0.3);
+  color: black;
+}
+
+.news {
+  padding: 10px;
+}
+
+#vesti img{
+  margin-right: 20px;
+}
+
+#partneri {
+  background-color: rgb(0,0,0,0.3);
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+  color: black;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
