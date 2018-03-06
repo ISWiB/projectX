@@ -8,26 +8,54 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
 	<link rel="stylesheet" href="css/css.css" />
+
+	<script>
+		(function ($) {
+  $(document).ready(function(){
+
+    // hide .navbar first
+    $(".niswib").hide();
+
+    // fade in .navbar
+    $(function () {
+        $(window).scroll(function () {
+
+                 // set distance user needs to scroll before we start fadeIn
+            if ($(this).scrollTop() > 100) {
+                $('.niswib').fadeIn();
+            } else {
+                $('.niswib').fadeOut();
+            }
+        });
+    });
+
+});
+  }(jQuery));
+	</script>
+	
 </head>
 
 <body>
   <div class="niswib">
      <nav class="navbar navbar-fixed-top navbar-inner">
     <div class="container">
-      <div class="navbar-header">
+		 <div class="navbar-collapse collpase">
+	 <div class="navbar-header">
         <a class="navbar-brand" href="#">ISWiB 2018</a>
       </div>
+	 
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#aHome" class="active">HOME</a></li>
         <li><a href="#aAbout">FESTIVAL</a></li>
         <li><a href="#aPortfolio">ABOUT</a></li>
         <li><a href="#aContact">CONTACT</a></li>
       </ul>
+	  </div>
     </div>
   </nav>
 </div>
- <div class="splash">
-    <img id="sp" src="http://iswib.org/images/slider/1.jpg">
+ <div id="splash">
+   <!-- <img id="sp" src="http://iswib.org/images/slider/1.jpg">-->
   </div>
   
   <div id="poz" class="row">

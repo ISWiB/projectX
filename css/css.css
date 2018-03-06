@@ -12,7 +12,7 @@ html, body {
 .niswib .navbar {
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: -5px 8px 6px -6px #999;
+  box-shadow: 0px 8px 6px -6px #999;
   background: rgba(237,237, 237, 0.7); 
 }
 
@@ -45,6 +45,33 @@ html, body {
   color: black;
   font-size: 18px;
 }
+
+ @media only screen and (orientation: landscape){
+        #splash
+        {
+            height: 100vh;
+            background-image: url("../images/splash.png");
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+
+    @media only screen and (orientation: portrait) {
+        #splash {
+            height: 100vh;
+            background-image: url("../images/splash_mobile.png");
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+	}
 
 #myCarousel{
   max-width:100%;
